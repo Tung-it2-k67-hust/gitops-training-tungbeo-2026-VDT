@@ -12,7 +12,7 @@ spec:
   goTemplateOptions: ["missingkey=error"]
   generators:
     - git:
-        repoURL: https://github.com/ongtungduong/gitops-training.git
+        repoURL: https://github.com/Tung-it2-k67-hust/gitops-training-tungbeo-2026-VDT.git
         revision: main
         directories:
           - path: "bootstrap/production/project-appsets/*"
@@ -24,7 +24,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/ongtungduong/gitops-training.git
+        repoURL: https://github.com/Tung-it2-k67-hust/gitops-training-tungbeo-2026-VDT.git
         targetRevision: main
         path: '{{ .path.path }}'
       destination:

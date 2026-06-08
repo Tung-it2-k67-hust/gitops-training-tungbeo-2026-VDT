@@ -1,15 +1,15 @@
 apiVersion: argoproj.io/v1alpha1
 kind: AppProject
 metadata:
-  name: mention-mate
+  name: notification
   namespace: argocd
 spec:
-  description: Project mention-mate (apps/mention-mate/)
+  description: Project notification (apps/notification/)
   sourceRepos:
     - https://github.com/Tung-it2-k67-hust/gitops-training-tungbeo-2026-VDT.git
   destinations:
     - server: https://kubernetes.default.svc
-      namespace: "mention-mate-*"
+      namespace: "notification-*"
   clusterResourceWhitelist:
     - group: ""
       kind: Namespace

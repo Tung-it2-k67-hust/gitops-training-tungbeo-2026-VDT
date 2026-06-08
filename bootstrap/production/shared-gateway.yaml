@@ -9,7 +9,7 @@ metadata:
 spec:
   project: platform
   source:
-    repoURL: https://github.com/ongtungduong/gitops-training.git
+    repoURL: https://github.com/Tung-it2-k67-hust/gitops-training-tungbeo-2026-VDT.git
     targetRevision: main
     path: platform/gateway
   destination:

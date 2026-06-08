@@ -6,7 +6,7 @@ metadata:
 spec:
   description: Project mention-mate (apps/mention-mate/)
   sourceRepos:
-    - https://github.com/ongtungduong/gitops-training.git
+    - https://github.com/Tung-it2-k67-hust/gitops-training-tungbeo-2026-VDT.git
   destinations:
     - server: https://kubernetes.default.svc
       namespace: "mention-mate-*"
